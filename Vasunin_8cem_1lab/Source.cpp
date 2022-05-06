@@ -15,7 +15,7 @@ int main() {
 			if ((int)temp - temp == 0)
 			{
 				cout << "x = " << temp << " y = " << y << endl;
-
+				printf("x = %.0f\t y = %i\n", temp, y);
 				break;
 			}
 		}
